@@ -1,4 +1,3 @@
-// Exemplo do padrão Builder
 class LancheBuilder {
   constructor() {
     this.lanche = {}
@@ -34,7 +33,6 @@ class LancheBuilder {
   }
 }
 
-// Uso do Builder
 const builder = new LancheBuilder()
 
 const lanchePersonalizado = builder

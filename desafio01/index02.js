@@ -1,4 +1,3 @@
-// Exemplo do padrão Factory Method
 class TransporteFactory {
   static criarTransporte(tipo) {
     switch (tipo.toLowerCase()) {
@@ -32,7 +31,6 @@ class Onibus {
   }
 }
 
-// Uso do Factory
 const tiposTransporte = ["bicicleta", "patinete", "onibus"]
 
 tiposTransporte.forEach((tipo) => {
